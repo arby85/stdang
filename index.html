@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Stdang</title>
-  <base href="/">
+  <!--<base href="/">-->
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -11,14 +11,15 @@
 <body>
   <app-root>Loading...</app-root>
 <script type="text/javascript" src="inline.523273b564d0e424679b.bundle.js"></script><script type="text/javascript" src="polyfills.d40c4db44cd054156a21.bundle.js"></script><script type="text/javascript" src="main.a66a9fd5a0bb72c3e02f.bundle.js"></script>
-  <script type="text/javascript"> 
+<br/>
+<h3 id="test"></h3>
+<script type="text/javascript"> 
 if (location.protocol != 'https:')
 {
-	"http"
+	document.getElementById("test").innerHTML="http";
 } else {
-	"https"
+	document.getElementById("test").innerHTML="https";
 }
 </script>
-
-  </body>
+</body>
 </html>
